@@ -7,6 +7,18 @@ const resultado = reactive({
   operacao: "add",
 });
 
+function label() {
+  if (resultado.operacao === "add") {
+    return "adição";
+  } else if (resultado.operacao === "sub") {
+    return "subtração";
+  } else if (resultado.operacao === "mult") {
+    return "multiplicação";
+  } else if (resultado.operacao === "divi") {
+    return "divisão";
+  }
+}
+
 function somar() {
   const n1 = parseFloat(resultado.valorA);
   const n2 = parseFloat(resultado.valorB);
@@ -47,7 +59,7 @@ function somar() {
       </select>
     </form>
     <h1>
-      O resultado será:
+      O resultado da {{ label() }} será:
       <p class="title">{{ somar() }}</p>
     </h1>
   </div>
