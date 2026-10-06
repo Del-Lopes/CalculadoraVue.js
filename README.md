@@ -1,29 +1,21 @@
-# calculadora_vue
+# Vue Calculator
 
-This template should help get you started developing with Vue 3 in Vite.
+A lightweight calculator application built with Vue 3 and Vite as part of my frontend development studies.
 
-## Recommended IDE Setup
+## Tech Stack
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Vue 3
+- Vite
+- JavaScript
+- CSS
 
-## Customize configuration
+## Running Locally
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+~~~bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
+~~~
 
-### Compile and Minify for Production
+## Project Context
 
-```sh
-npm run build
-```
+An earlier learning project kept public as a record of my experience with Vue and modern frontend tooling.
